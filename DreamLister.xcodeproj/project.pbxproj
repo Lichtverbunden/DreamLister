@@ -56,15 +56,55 @@
 		BE43030F1F1D0B9700932626 /* DreamLister */ = {
 			isa = PBXGroup;
 			children = (
+				BE4303271F1D0C4D00932626 /* Model */,
+				BE4303261F1D0C3F00932626 /* View */,
+				BE4303251F1D0C2900932626 /* Controller */,
+				BE4303291F1D0C5D00932626 /* Resources */,
+				BE4303281F1D0C5600932626 /* Util */,
 				BE4303101F1D0B9700932626 /* AppDelegate.swift */,
-				BE4303121F1D0B9700932626 /* ViewController.swift */,
-				BE4303141F1D0B9700932626 /* Main.storyboard */,
-				BE43031A1F1D0B9700932626 /* Assets.xcassets */,
 				BE43031C1F1D0B9700932626 /* LaunchScreen.storyboard */,
+				BE4303141F1D0B9700932626 /* Main.storyboard */,
 				BE43031F1F1D0B9700932626 /* Info.plist */,
 				BE4303171F1D0B9700932626 /* DreamLister.xcdatamodeld */,
 			);
 			path = DreamLister;
+			sourceTree = "<group>";
+		};
+		BE4303251F1D0C2900932626 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BE4303121F1D0B9700932626 /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		BE4303261F1D0C3F00932626 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		BE4303271F1D0C4D00932626 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		BE4303281F1D0C5600932626 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		BE4303291F1D0C5D00932626 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BE43031A1F1D0B9700932626 /* Assets.xcassets */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
