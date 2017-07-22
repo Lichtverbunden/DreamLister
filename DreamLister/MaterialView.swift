@@ -33,7 +33,6 @@ extension UIView
             }
             else
             {
-                self.layer.masksToBounds = true
                 self.layer.cornerRadius = 0
                 self.layer.shadowOpacity = 0
                 self.layer.shadowRadius = 0

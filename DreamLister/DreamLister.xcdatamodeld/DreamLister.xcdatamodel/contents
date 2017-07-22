@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="12141" systemVersion="16F73" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="12141" systemVersion="16G29" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
     <entity name="Image" representedClassName=".Image" syncable="YES">
         <attribute name="image" optional="YES" attributeType="Transformable" syncable="YES"/>
         <relationship name="toItem" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Item" inverseName="toImage" inverseEntity="Item" syncable="YES"/>
@@ -24,9 +24,9 @@
         <relationship name="toItem" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Item" inverseName="toStore" inverseEntity="Item" syncable="YES"/>
     </entity>
     <elements>
-        <element name="Item" positionX="142" positionY="-15" width="128" height="148"/>
         <element name="Image" positionX="144" positionY="270" width="128" height="88"/>
-        <element name="Store" positionX="-371" positionY="326" width="128" height="88"/>
+        <element name="Item" positionX="142" positionY="-15" width="128" height="150"/>
         <element name="ItemType" positionX="-108" positionY="-18" width="128" height="73"/>
+        <element name="Store" positionX="-371" positionY="326" width="128" height="88"/>
     </elements>
 </model>

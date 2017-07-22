@@ -41,5 +41,7 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>In order to choose a photo for your wish, access needs to be granted to the photo library. Do you want to give permission?</string>
 </dict>
 </plist>
